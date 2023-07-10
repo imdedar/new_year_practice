@@ -1,0 +1,175 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+ box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+ /* max-width: 1240px; */
+ margin: 0 auto;
+}
+
+header{
+    background-image: url('images/banner/banner3.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.main-header{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:end;
+    padding-right: 100px;
+}
+
+.banner-container{
+    width: 500px;
+    padding-right: 50px;
+    text-align: right; 
+}
+
+.btn-primary{
+    padding: 12px 18px;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+.banner-description{
+    padding: 20px 0 0 10px;
+    font-family: cursive;
+}
+
+.show-case{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    
+}
+
+.features{
+    padding-left: 10px;
+    margin-top: 200px;
+}
+
+.features-title{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.description{
+    line-height: 1.8;
+}
+.features-description{
+    padding-top: 20px;
+    line-height: 1.8;
+}
+
+.my-icon{
+    color: #007bff;
+    padding-right: 5px;
+}
+
+#focus{
+    margin: 50px 0;
+}
+
+.focus-title{
+    text-align: center;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.skill h1{
+    padding: 10px;
+    font-family: cursive;
+}
+
+.skill h3{
+    color: rgb(134, 119, 119);
+}
+
+/* .positiveness{
+    height: 50vh;
+    background-image: url('images/watch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+#positive{
+    height: 50vh;
+}
+.positiveness{
+    background-image: url('images/watch-overlay.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.positive-heading{
+    padding: 80px;
+}
+
+.positive-heading h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+#main-footer{
+    
+    height: 50vh;
+    color: #fff;
+    background-color: #333;
+}
+
+.footer-container{
+    padding-top: 40px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+.social-text{
+    margin-top: 20px;
+   width: 400px;
+   line-height: 1.8;
+}
+.social-icon{
+    margin-top: 10px;
+}
+
+.social-icon img{
+    padding-right: 10px;
+}
+.email{
+    display: block;
+    margin-top: 10px;
+    padding: 10px 40px;
+    border-radius: 6px;
+    border: none;
+
+}
